@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pricing landing page</title>
+</head>
+<body>
+    
+    <div class="top-banner">
+      <p class="header"> Grow better with the right plan.</p>
+      <p class="current-plan"> Choose your current plan today.</p>
+      <p class="Free-trial"> FREE-TRIAL for 10 days.</p>
+    </div>
+
+    <div class="container">
+      <h1 class="title">Choose a plan</h1>
+      <div class="toggle-switch">
+            <span>Billed anually </span>
+            <input type="checkbox" class="toggler">
+            <span> Billed monthly</span>
+      </div>
+
+      <div class="cards">
+
+        <!-- Starter Plan -->
+          <div class="card" id="card-1">
+            <h1 class="card-title">Starter</h1>
+            <h2 class="card-price" id="starter-price"> ₹1500 <span> / month</span> </h2>
+            <ul class="card-plan">
+               <li> Structured Curriculum</li>
+                <li>Interactive Learning</li>
+                <li>Online/Offline lectures</li>
+                <li>Programming Language Basics</li>
+                <li>Test series every week</li>
+                <li> 2 projects</li>
+                <li>Certification</li>
+              </ul>
+            <button type="button" class="card-btn"> Choose Plan</button>
+          </div>
+
+          <!-- Pro Plan -->
+          <div class="card active" id="card-2">
+            <h1 class="card-title">Pro</h1>
+            <h2 class="card-price" id="pro-price"> ₹2500 <span> / month</span> </h2>
+          
+            <select  id="maus">
+                    <option value="10am-12am">10am-12am</option>
+                    <option value="4pm-6pm">4pm-6pm</option>
+                    <option value="6pm-8pm">6pm-8pm</option>
+                    <option value="8pm-10pm">6pm-10pm</option>
+            </select>
+            <span class="note"> Select your batch timing </span>
+          
+            <ul class="card-plan">
+              <li> All starter features plus</li>
+              <li> Doubt solving sessions</li>
+              <li> 4 projects</li>
+              <li> One to one teaching</li>
+              <li> Guest lectures</li>
+            </ul>
+            <button type="button" class="card-btn"> Choose Plan</button>
+          </div>
+
+          <!-- Gold Card -->
+          <div class="card" id="card-3">
+            <h1 class="card-title">Gold</h1>
+            <h2 class="card-price"> Let's Talk! </h2>
+            <ul class="card-plan">
+                <li> All pro features</li>
+                <li> Unlimited Test Series</li>
+                <li> Premium Accounts And Services</li>
+                <li> Unlimited projects</li>
+                <li> At Reasonable Pricing</li>
+                <li> Lifetime access</li>
+            </ul>
+            <button type="button" class="card-btn"> Contact Us</button>
+          </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
